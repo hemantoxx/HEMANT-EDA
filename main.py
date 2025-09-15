@@ -100,7 +100,7 @@ if uploaded_file:
 
 elif use_example_data:
     # Load the example dataset
-    df = function.load_data(file=r"https://github.com/hemantoxx/HEMANT-EDA/blob/main/example_dataset/titanic.csv")
+    df = function.load_data(file="example_dataset/titanic.csv")
 
     # Set st.session_state.new_df to the example dataset for data preprocessing
     if 'new_df' not in st.session_state:
