@@ -1,0 +1,6 @@
+[theme]
+base="light"                         # Force light mode
+primaryColor="#6a37d9ff"             # Your accent color (purple)
+backgroundColor="#FFFFFF"            # Main background white
+secondaryBackgroundColor="#F5F5F5"   # Sidebar background light grey
+textColor="#000000"                  # Black text
